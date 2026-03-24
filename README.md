@@ -1,4 +1,4 @@
-# Screenshot.io Screenshot API
+# ScreenAPI Screenshot API
 
 Generate website screenshots and PDFs via REST API.
 
@@ -130,9 +130,9 @@ docker run -p 3000:3000 screenshot-api
 
 ## Support
 
-- Docs: https://screenshot.io.com/docs
-- Email: support@screenshot.io.com
-- Discord: https://discord.gg/screenshot.io
+- Docs: https://screenapi.com.com/docs
+- Email: support@screenapi.com.com
+- Discord: https://discord.gg/screenapi.com
 
 ## License
 

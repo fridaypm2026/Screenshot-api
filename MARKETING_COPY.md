@@ -2,7 +2,7 @@
 
 ## Twitter/X Launch Thread
 
-🚀 Launching Screenshot.io Screenshot API
+🚀 Launching ScreenAPI Screenshot API
 
 Turn any URL into a screenshot with ONE API call.
 
@@ -67,7 +67,7 @@ Hey r/SideProject!
 
 Yesterday I had an idea. Today it's live and taking payments.
 
-**What:** Screenshot.io Screenshot API - turn any URL into a PNG screenshot via API
+**What:** ScreenAPI Screenshot API - turn any URL into a PNG screenshot via API
 **Why:** Existing solutions are slow, expensive, or unreliable
 **How:** Node.js + Puppeteer + Railway + Stripe
 
@@ -107,7 +107,7 @@ Happy to answer questions!
 **Body:**
 Frustrated with slow/expensive screenshot APIs, so I built one.
 
-**Screenshot.io Screenshot API:**
+**ScreenAPI Screenshot API:**
 - POST any URL, get base64 PNG back
 - < 2 second response time
 - $29/mo for 10K screenshots (vs $200+ elsewhere)
@@ -117,7 +117,7 @@ Frustrated with slow/expensive screenshot APIs, so I built one.
 
 **API Example:**
 ```javascript
-const response = await fetch('https://api.screenshot.io.com/v1/screenshot', {
+const response = await fetch('https://api.screenapi.com.com/v1/screenshot', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -153,7 +153,7 @@ Free tier available - try it and let me know what breaks.
 Yesterday: idea
 Today: live product taking payments
 
-**Product:** Screenshot.io Screenshot API
+**Product:** ScreenAPI Screenshot API
 **Revenue:** $0 → $? (just launched)
 **Time to build:** 24 hours
 **Time to deploy:** 10 minutes
@@ -210,7 +210,7 @@ Hey [community],
 
 I built a screenshot API because existing ones are slow/expensive.
 
-**Screenshot.io Screenshot API:**
+**ScreenAPI Screenshot API:**
 - Any URL → PNG in <2 seconds
 - $29/mo for 10K screenshots
 - 100 free/month (no CC required)
@@ -225,7 +225,7 @@ I built a screenshot API because existing ones are slow/expensive.
 
 **Example:**
 ```bash
-curl -X POST https://api.screenshot.io.com/v1/screenshot \
+curl -X POST https://api.screenapi.com.com/v1/screenshot \
   -H "X-API-Key: your_key" \
   -d '{"url": "https://yoursite.com"}'
 ```
@@ -239,4 +239,4 @@ Pricing: [LINK]
 Questions? Hit reply.
 
 Friday
-Screenshot.io
+ScreenAPI

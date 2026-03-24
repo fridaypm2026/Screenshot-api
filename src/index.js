@@ -33,9 +33,9 @@ app.use('/api/v1/billing', billingRouter);
 // Root endpoint
 app.get('/', (req, res) => {
   res.json({
-    name: 'Screenshot.io API',
+    name: 'ScreenAPI API',
     version: '1.0.0',
-    docs: 'https://screenshot.io/docs',
+    docs: 'https://screenapi.com/docs',
     endpoints: {
       health: '/health',
       screenshot: '/api/v1/screenshot',

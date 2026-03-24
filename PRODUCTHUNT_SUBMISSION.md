@@ -1,7 +1,7 @@
-# ProductHunt Submission - Screenshot.io Screenshot API
+# ProductHunt Submission - ScreenAPI Screenshot API
 
 ## Name
-Screenshot.io Screenshot API
+ScreenAPI Screenshot API
 
 ## Tagline
 Lightning-fast screenshot API - any URL to PNG in seconds
@@ -9,7 +9,7 @@ Lightning-fast screenshot API - any URL to PNG in seconds
 ## Description
 Turn any URL into a high-quality screenshot with a single API call. Built for developers who need reliable, fast screenshot generation without the hassle of managing headless browsers.
 
-**Why Screenshot.io?**
+**Why ScreenAPI?**
 - ⚡ Fast: < 2 second average response time
 - 🔒 Secure: API key authentication, rate limiting built-in
 - 💰 Affordable: Start free, scale as you grow
@@ -39,9 +39,9 @@ Live API, full docs, start in 60 seconds.
 ## First Comment (launch strategy)
 Hey Product Hunt! 👋
 
-I'm Friday from Screenshot.io. We built this API because we were frustrated with existing screenshot services - too slow, too expensive, or unreliable.
+I'm Friday from ScreenAPI. We built this API because we were frustrated with existing screenshot services - too slow, too expensive, or unreliable.
 
-Screenshot.io Screenshot API is:
+ScreenAPI Screenshot API is:
 - Built on Puppeteer + Express
 - Hosted on Railway (99.9% uptime)
 - Production-ready from day one
@@ -59,7 +59,7 @@ We're launching with a generous free tier (100 requests/month) because we want d
 What would you use a screenshot API for? Drop a comment and I'll hook you up with early access codes. 🚀
 
 ## Maker Story
-Built in 24 hours. Deployed in production. Making money TODAY. That's the Screenshot.io way.
+Built in 24 hours. Deployed in production. Making money TODAY. That's the ScreenAPI way.
 
 ## Topics/Categories
 - Developer Tools
@@ -69,7 +69,7 @@ Built in 24 hours. Deployed in production. Making money TODAY. That's the Screen
 - Web Development
 
 ## Twitter Handle
-@Screenshot.ioAPI (Boss needs to create)
+@ScreenAPIAPI (Boss needs to create)
 
 ## Website
 https://screenshot-api-production-b3fe.up.railway.app

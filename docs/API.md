@@ -1,8 +1,8 @@
-# Screenshot.io Screenshot API Documentation
+# ScreenAPI Screenshot API Documentation
 
 ## Base URL
 ```
-https://api.screenshot.io.com/v1
+https://api.screenapi.com.com/v1
 ```
 
 ## Authentication
@@ -13,7 +13,7 @@ All requests require an API key in the `X-API-Key` header:
 X-API-Key: your_api_key_here
 ```
 
-Get your API key: [https://screenshot.io.com/dashboard](https://screenshot.io.com/dashboard)
+Get your API key: [https://screenapi.com.com/dashboard](https://screenapi.com.com/dashboard)
 
 ---
 
@@ -168,7 +168,7 @@ X-RateLimit-Reset: 1679580000
 ### JavaScript (Node.js)
 
 ```javascript
-const response = await fetch('https://api.screenshot.io.com/v1/screenshot', {
+const response = await fetch('https://api.screenapi.com.com/v1/screenshot', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -196,7 +196,7 @@ import requests
 import base64
 
 response = requests.post(
-  'https://api.screenshot.io.com/v1/screenshot',
+  'https://api.screenapi.com.com/v1/screenshot',
   headers={'X-API-Key': 'your_api_key_here'},
   json={
     'url': 'https://example.com',
@@ -215,7 +215,7 @@ with open('screenshot.png', 'wb') as f:
 ### cURL
 
 ```bash
-curl -X POST https://api.screenshot.io.com/v1/screenshot \
+curl -X POST https://api.screenapi.com.com/v1/screenshot \
   -H "Content-Type: application/json" \
   -H "X-API-Key: your_api_key_here" \
   -d '{
@@ -241,6 +241,6 @@ curl -X POST https://api.screenshot.io.com/v1/screenshot \
 
 ## Support
 
-- **Email:** support@screenshot.io.com
-- **Discord:** [https://discord.gg/screenshot.io](https://discord.gg/screenshot.io)
-- **Status:** [https://status.screenshot.io.com](https://status.screenshot.io.com)
+- **Email:** support@screenapi.com.com
+- **Discord:** [https://discord.gg/screenapi.com](https://discord.gg/screenapi.com)
+- **Status:** [https://status.screenapi.com.com](https://status.screenapi.com.com)

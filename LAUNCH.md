@@ -22,7 +22,7 @@
   - Pricing table
   - Live demo/playground
   - Sign up form (email capture)
-- [ ] Deploy to screenshot.io.com/screenshot-api
+- [ ] Deploy to screenapi.com.com/screenshot-api
 
 ### 4. Payment Setup
 - [ ] Stripe account verified
@@ -75,13 +75,13 @@ We built Screenshot API so you don't have to manage Puppeteer yourself.
 - 99.9% uptime SLA
 - Open-source wrapper libraries
 
-Try free: https://screenshot.io.com/screenshot-api
-Docs: https://screenshot.io.com/docs
+Try free: https://screenapi.com.com/screenshot-api
+Docs: https://screenapi.com.com/docs
 ```
 
 **First Comment (post immediately):**
 ```
-👋 Hey Product Hunt! I'm Jack, founder of Screenshot.io.
+👋 Hey Product Hunt! I'm Jack, founder of ScreenAPI.
 
 I built this because I was tired of managing Puppeteer infrastructure 
 for every project. Spinning up Chrome, handling crashes, scaling... 
@@ -193,14 +193,14 @@ Reach out to:
 - [ ] Video tutorials
 
 ### Communication
-- [ ] Support email: support@screenshot.io.com
+- [ ] Support email: support@screenapi.com.com
 - [ ] Discord server (optional)
 - [ ] Twitter for public updates
 
 ### SLA
 - Response time: < 24 hours
 - Uptime guarantee: 99.9%
-- Status page: status.screenshot.io.com
+- Status page: status.screenapi.com.com
 
 ---
 
