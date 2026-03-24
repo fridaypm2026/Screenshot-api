@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coldpike Screenshot API - Pricing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+        <h1 class="text-5xl font-bold text-center mb-4">Simple, Transparent Pricing</h1>
+        <p class="text-xl text-gray-600 text-center mb-12">Start free, scale as you grow</p>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Free Tier -->
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h3 class="text-2xl font-bold mb-4">Free</h3>
+                <p class="text-4xl font-bold mb-6">$0<span class="text-lg text-gray-600">/mo</span></p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>100 requests/month</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>API key required</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Basic support</li>
+                </ul>
+                <button class="w-full bg-gray-800 text-white py-3 rounded-lg hover:bg-gray-700" onclick="window.location.href='/docs'">Get Started</button>
+            </div>
+
+            <!-- Pro Tier -->
+            <div class="bg-blue-600 text-white rounded-lg shadow-xl p-8 transform scale-105">
+                <div class="bg-yellow-400 text-gray-900 text-xs font-bold px-3 py-1 rounded-full inline-block mb-4">MOST POPULAR</div>
+                <h3 class="text-2xl font-bold mb-4">Pro</h3>
+                <p class="text-4xl font-bold mb-6">$29<span class="text-lg">/mo</span></p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center"><svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>10,000 requests/month</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Priority support</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Custom domains</li>
+                </ul>
+                <button class="w-full bg-white text-blue-600 py-3 rounded-lg hover:bg-gray-100 font-bold" onclick="checkout('pro')">Start Pro Trial</button>
+            </div>
+
+            <!-- Business Tier -->
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h3 class="text-2xl font-bold mb-4">Business</h3>
+                <p class="text-4xl font-bold mb-6">$99<span class="text-lg text-gray-600">/mo</span></p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Unlimited requests</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>24/7 support</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>SLA guarantee</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Dedicated IPs</li>
+                </ul>
+                <button class="w-full bg-gray-800 text-white py-3 rounded-lg hover:bg-gray-700" onclick="checkout('business')">Start Business Trial</button>
+            </div>
+        </div>
+
+        <div class="mt-16 text-center">
+            <h2 class="text-3xl font-bold mb-4">Need Enterprise?</h2>
+            <p class="text-xl text-gray-600 mb-6">Custom solutions for high-volume needs</p>
+            <a href="mailto:boss@coldpike.com" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 inline-block">Contact Sales</a>
+        </div>
+    </div>
+
+    <script>
+        function checkout(tier) {
+            // Generate API key for user
+            const apiKey = 'ck_' + Math.random().toString(36).substr(2, 32);
+            
+            fetch('/api/v1/billing/create-checkout', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    priceId: tier === 'pro' ? 'price_pro' : 'price_business',
+                    apiKey: apiKey
+                })
+            })
+            .then(r => r.json())
+            .then(data => window.location.href = data.url);
+        }
+    </script>
+</body>
+</html>

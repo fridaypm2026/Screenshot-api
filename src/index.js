@@ -5,6 +5,7 @@ import rateLimit from 'express-rate-limit';
 import dotenv from 'dotenv';
 import { screenshotRouter } from './routes/screenshot.js';
 import { healthRouter } from './routes/health.js';
+import { billingRouter } from './routes/billing.js';
 
 dotenv.config();
 
@@ -27,6 +28,7 @@ app.use(limiter);
 // Routes
 app.use('/health', healthRouter);
 app.use('/api/v1', screenshotRouter);
+app.use('/api/v1/billing', billingRouter);
 
 // Root endpoint
 app.get('/', (req, res) => {
