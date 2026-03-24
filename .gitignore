@@ -7,3 +7,4 @@ coverage/
 screenshots/
 *.png
 *.pdf
+STRIPE_KEYS.txt
