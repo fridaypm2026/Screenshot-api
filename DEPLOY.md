@@ -111,7 +111,7 @@ REDIS_URL=redis://username:password@host:port
 
 ### Railway
 1. Settings → Domains
-2. Add custom domain: `api.coldpike.com`
+2. Add custom domain: `api.screenshot.io.com`
 3. Add CNAME record in your DNS:
    ```
    CNAME api screenshot-api-production.up.railway.app

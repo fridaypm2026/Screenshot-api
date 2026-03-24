@@ -1,4 +1,4 @@
-# Coldpike Screenshot API
+# Screenshot.io Screenshot API
 
 Generate website screenshots and PDFs via REST API.
 
@@ -130,9 +130,9 @@ docker run -p 3000:3000 screenshot-api
 
 ## Support
 
-- Docs: https://coldpike.com/docs
-- Email: support@coldpike.com
-- Discord: https://discord.gg/coldpike
+- Docs: https://screenshot.io.com/docs
+- Email: support@screenshot.io.com
+- Discord: https://discord.gg/screenshot.io
 
 ## License
 

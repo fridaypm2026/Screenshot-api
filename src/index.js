@@ -33,9 +33,9 @@ app.use('/api/v1/billing', billingRouter);
 // Root endpoint
 app.get('/', (req, res) => {
   res.json({
-    name: 'Coldpike Screenshot API',
+    name: 'Screenshot.io API',
     version: '1.0.0',
-    docs: 'https://coldpike.com/docs',
+    docs: 'https://screenshot.io/docs',
     endpoints: {
       health: '/health',
       screenshot: '/api/v1/screenshot',

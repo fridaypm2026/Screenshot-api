@@ -1,5 +1,5 @@
 {
-  "name": "coldpike-screenshot-api",
+  "name": "screenshot.io-screenshot-api",
   "version": "1.0.0",
   "description": "Screenshot API - Generate website screenshots via REST API",
   "main": "src/index.js",
@@ -15,7 +15,7 @@
     "puppeteer",
     "headless-chrome"
   ],
-  "author": "Coldpike",
+  "author": "Screenshot.io",
   "license": "MIT",
   "dependencies": {
     "bullmq": "^5.1.0",
