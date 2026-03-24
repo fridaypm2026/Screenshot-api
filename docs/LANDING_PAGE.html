@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenshot API - Generate Website Screenshots in One API Call</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #000; color: #fff; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* Hero */
+        .hero { text-align: center; padding: 100px 20px; }
+        .hero h1 { font-size: 56px; margin-bottom: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { font-size: 24px; color: #999; margin-bottom: 40px; }
+        .cta { display: inline-block; background: #667eea; color: #fff; padding: 15px 40px; font-size: 18px; border-radius: 8px; text-decoration: none; transition: 0.3s; }
+        .cta:hover { background: #764ba2; transform: translateY(-2px); }
+        
+        /* Code Example */
+        .demo { background: #111; padding: 40px; border-radius: 12px; margin: 60px auto; max-width: 800px; }
+        .demo pre { background: #000; padding: 20px; border-radius: 8px; overflow-x: auto; color: #0f0; font-size: 14px; }
+        
+        /* Features */
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin: 80px 0; }
+        .feature { background: #111; padding: 30px; border-radius: 12px; }
+        .feature h3 { color: #667eea; margin-bottom: 10px; }
+        
+        /* Pricing */
+        .pricing { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin: 80px 0; }
+        .plan { background: #111; padding: 40px; border-radius: 12px; text-align: center; }
+        .plan.featured { border: 2px solid #667eea; }
+        .plan h3 { font-size: 24px; margin-bottom: 10px; }
+        .plan .price { font-size: 48px; color: #667eea; margin: 20px 0; }
+        .plan ul { text-align: left; margin: 20px 0; list-style: none; }
+        .plan li { padding: 10px 0; border-bottom: 1px solid #222; }
+        
+        /* Footer */
+        footer { text-align: center; padding: 60px 20px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero -->
+        <div class="hero">
+            <h1>Screenshot API</h1>
+            <p>Generate website screenshots in one API call. No infrastructure, no headaches.</p>
+            <a href="#pricing" class="cta">Start Free →</a>
+        </div>
+
+        <!-- Demo -->
+        <div class="demo">
+            <h2 style="margin-bottom: 20px;">One Line of Code</h2>
+            <pre>curl -X POST https://api.coldpike.com/v1/screenshot \
+  -H "X-API-Key: your_key" \
+  -d '{"url": "https://example.com"}'</pre>
+        </div>
+
+        <!-- Features -->
+        <div class="features">
+            <div class="feature">
+                <h3>⚡ Lightning Fast</h3>
+                <p>Screenshots in under 2 seconds. Optimized headless Chrome infrastructure.</p>
+            </div>
+            <div class="feature">
+                <h3>📸 Full Control</h3>
+                <p>Custom viewport sizes, full-page captures, multiple formats (PNG, JPEG, WebP).</p>
+            </div>
+            <div class="feature">
+                <h3>📄 PDF Generation</h3>
+                <p>Convert any webpage to PDF with a single API call. Perfect for reports.</p>
+            </div>
+            <div class="feature">
+                <h3>🔒 Secure & Reliable</h3>
+                <p>99.9% uptime SLA. Rate limiting, API key auth, HTTPS everywhere.</p>
+            </div>
+            <div class="feature">
+                <h3>📚 Great Docs</h3>
+                <p>Code examples in Node.js, Python, cURL. Get started in 5 minutes.</p>
+            </div>
+            <div class="feature">
+                <h3>💰 Fair Pricing</h3>
+                <p>Start free. Scale as you grow. No hidden fees or per-pixel charges.</p>
+            </div>
+        </div>
+
+        <!-- Pricing -->
+        <h2 style="text-align: center; font-size: 42px; margin-bottom: 40px;">Simple Pricing</h2>
+        <div class="pricing" id="pricing">
+            <div class="plan">
+                <h3>Free</h3>
+                <div class="price">$0</div>
+                <p>/month</p>
+                <ul>
+                    <li>✅ 100 screenshots/month</li>
+                    <li>✅ All formats (PNG, JPEG, WebP)</li>
+                    <li>✅ PDF generation</li>
+                    <li>✅ API documentation</li>
+                    <li>✅ Email support</li>
+                </ul>
+                <a href="#" class="cta" style="display: inline-block; margin-top: 20px;">Get Started</a>
+            </div>
+
+            <div class="plan featured">
+                <h3>Starter</h3>
+                <div class="price">$29</div>
+                <p>/month</p>
+                <ul>
+                    <li>✅ <strong>10,000</strong> screenshots/month</li>
+                    <li>✅ All formats (PNG, JPEG, WebP)</li>
+                    <li>✅ PDF generation</li>
+                    <li>✅ Priority support</li>
+                    <li>✅ Webhooks</li>
+                    <li>✅ Custom headers</li>
+                </ul>
+                <a href="#" class="cta" style="display: inline-block; margin-top: 20px;">Start Trial</a>
+            </div>
+
+            <div class="plan">
+                <h3>Pro</h3>
+                <div class="price">$99</div>
+                <p>/month</p>
+                <ul>
+                    <li>✅ <strong>100,000</strong> screenshots/month</li>
+                    <li>✅ All formats (PNG, JPEG, WebP)</li>
+                    <li>✅ PDF generation</li>
+                    <li>✅ Priority support</li>
+                    <li>✅ Webhooks</li>
+                    <li>✅ Custom headers</li>
+                    <li>✅ Dedicated IP</li>
+                </ul>
+                <a href="#" class="cta" style="display: inline-block; margin-top: 20px;">Start Trial</a>
+            </div>
+        </div>
+
+        <!-- CTA -->
+        <div style="text-align: center; margin: 100px 0;">
+            <h2 style="font-size: 42px; margin-bottom: 20px;">Ready to ship?</h2>
+            <p style="color: #999; font-size: 20px; margin-bottom: 40px;">Start capturing screenshots in 5 minutes.</p>
+            <a href="#" class="cta">Get Your API Key →</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Coldpike. All rights reserved.</p>
+        <p style="margin-top: 10px;">
+            <a href="#" style="color: #667eea;">Docs</a> · 
+            <a href="#" style="color: #667eea;">API Status</a> · 
+            <a href="#" style="color: #667eea;">Support</a>
+        </p>
+    </footer>
+</body>
+</html>
