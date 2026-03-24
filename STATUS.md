@@ -33,7 +33,7 @@
 3. Test endpoints with test script: `npm test`
 4. Fix any bugs
 5. Deploy to Railway
-6. Set up custom domain (api.screenapi.com.com)
+6. Set up custom domain (api.screenapi.ai.com)
 7. Launch on ProductHunt
 
 ---
@@ -108,7 +108,7 @@ screenshot-api/
    - Free tier: $5 credit/mo
 
 2. **Custom Domain:**
-   - Set CNAME: api.screenapi.com.com → Railway URL
+   - Set CNAME: api.screenapi.ai.com → Railway URL
    - SSL auto-enabled
 
 3. **Monitoring:**

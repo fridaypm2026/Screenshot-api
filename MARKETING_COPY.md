@@ -117,7 +117,7 @@ Frustrated with slow/expensive screenshot APIs, so I built one.
 
 **API Example:**
 ```javascript
-const response = await fetch('https://api.screenapi.com.com/v1/screenshot', {
+const response = await fetch('https://api.screenapi.ai.com/v1/screenshot', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -225,7 +225,7 @@ I built a screenshot API because existing ones are slow/expensive.
 
 **Example:**
 ```bash
-curl -X POST https://api.screenapi.com.com/v1/screenshot \
+curl -X POST https://api.screenapi.ai.com/v1/screenshot \
   -H "X-API-Key: your_key" \
   -d '{"url": "https://yoursite.com"}'
 ```

@@ -130,9 +130,9 @@ docker run -p 3000:3000 screenshot-api
 
 ## Support
 
-- Docs: https://screenapi.com.com/docs
-- Email: support@screenapi.com.com
-- Discord: https://discord.gg/screenapi.com
+- Docs: https://screenapi.ai.com/docs
+- Email: support@screenapi.ai.com
+- Discord: https://discord.gg/screenapi.ai
 
 ## License
 

@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
   res.json({
     name: 'ScreenAPI API',
     version: '1.0.0',
-    docs: 'https://screenapi.com/docs',
+    docs: 'https://screenapi.ai/docs',
     endpoints: {
       health: '/health',
       screenshot: '/api/v1/screenshot',

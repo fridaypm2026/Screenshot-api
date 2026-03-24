@@ -1,5 +1,5 @@
 {
-  "name": "screenapi.com-screenshot-api",
+  "name": "screenapi.ai-screenshot-api",
   "version": "1.0.0",
   "description": "Screenshot API - Generate website screenshots via REST API",
   "main": "src/index.js",
